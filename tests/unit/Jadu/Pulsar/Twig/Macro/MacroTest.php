@@ -76,7 +76,7 @@ class MacroTest extends \PHPUnit\Framework\TestCase
      */
     private function normalizeOutput($output)
     {
-        // Remove extra whitesapce
+        // Remove extra whitespace
         $output = implode(' ', preg_split('/\s+/', trim($output)));
 
         // Remove extra whitespace within tags
